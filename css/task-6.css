@@ -1,0 +1,49 @@
+#controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 32px;  
+    background-color: #f6f6fe; 
+    margin-bottom: 16px; 
+}
+
+input {
+border: 1px solid #808080;
+border-radius: 8px;
+width: 150px;
+height: 40px;
+padding-left: 16px;
+}
+
+button{
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px; 
+    background-color: #4e75ff;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;  
+}
+
+.destroy {
+background-color: #ff4e4e;;    
+}
+
+#boxes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+padding: 32px;
+min-width: 486px;
+min-height: 134px; 
+background-color: #f6f6fe; 
+flex-wrap: wrap; 
+}
